@@ -50,7 +50,8 @@ Example Request: http://localhost:5000/api -H "Content-Type: application/json" -
 "name": "Peter Ndukwe",
 "age": "12",
 track: "backend"
-}'```
+}'
+```
 
 ### Retreive a person
 Endpoint: GET /api/<string:user_id>
@@ -70,7 +71,8 @@ Example Request: http://localhost:5000/api/<string:user_id> -H "Content-Type: ap
     "name": "Lebron James",
     "id": <string:user_id>,
     "age": 40,
- }'```
+ }'
+```
 ### Delete a person
 Endpoint: DELETE /api/<string:user_id>
 
