@@ -2,17 +2,17 @@
 The CRUD API is a RESTful API that allows you to perform CRUD (Create, Read, Update, Delete) operations on person records in a database. This README provides instructions on setting up, running, and using the API.
 
 ## Table of Contents
-[Prerequisites](#prerequisites)
-[Getting Started](#getting-started)
-[Installation](#installation)
-[Configuration](#configuration)
-[Running the API](#running-the-api)
-[API Endpoints](#api-endpoints)
-[Create a Person](#create-a-person)
-[Retrieve a Person](#retrieve-a-person)
-[Update a Person](#update-a-person)
-[Delete a Person](#delete-a-person)
-[Testing the API](#testing-the-api)
+* [Prerequisites](#prerequisites)
+* [Getting Started](#getting-started)
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Running the API](#running-the-api)
+* [API Endpoints](#api-endpoints)
+    * [Create a Person](#create-a-person)
+    * [Retrieve a Person](#retrieve-a-person)
+    * [Update a Person](#update-a-person)
+    * [Delete a Person](#delete-a-person)
+* [Testing the API](#testing-the-api)
 ### Prerequisites
 Before you begin, ensure you have the following:
 
