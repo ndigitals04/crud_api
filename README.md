@@ -84,3 +84,5 @@ Example Request: DELETE http://localhost:5000/api/<string:user_id>
 You can use Postman or python scripts (e.g., pytest) to test the API. Detailed instructions for testing the API can be found in the DOCUMENTATION.md.
 
 
+[![Visits Badge](https://badges.pufler.dev/visits/braydoncoyer/braydoncoyer)](https:braydoncoyer.dev)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/Ndigitals001)
