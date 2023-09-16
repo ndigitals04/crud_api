@@ -1,7 +1,7 @@
 # CRUD API 
 The Person API is a simple RESTful API that allows you to perform CRUD (Create, Read, Update, Delete) operations on person records. This README provides instructions on setting up, running, and using the API.
 
-##Table of Contents
+## Table of Contents
 Prerequisites
 Getting Started
 Installation
