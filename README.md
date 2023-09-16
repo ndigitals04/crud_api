@@ -2,7 +2,7 @@
 The CRUD API is a RESTful API that allows you to perform CRUD (Create, Read, Update, Delete) operations on person records in a database. This README provides instructions on setting up, running, and using the API.
 
 ## Table of Contents
-[Prerequisites]#Prerequisites
+[Prerequisites]###prerequisites
 Getting Started
 Installation
 Configuration
