@@ -67,7 +67,8 @@ Content-Type: application/json Request Body:
     "name": string,
     "age": string
     "track":string
-}```
+}
+```
 Response Format
 
 HTTP Status Code: 200 (OK) on success
