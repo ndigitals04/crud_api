@@ -30,9 +30,10 @@ HTTP Status Code: 201 (Created) on success
 
 JSON Response Body:
 
-{
+```{
  "id": string,"name":string, "age":string, "track":string
 }
+```
 ### Retrieve a Person (GET '/api/<string:user_id>')
 Request Format
 
@@ -44,12 +45,13 @@ HTTP Status Code: 200 (OK) on success
 
 JSON Response Body:
 
-  {
+  ```{
     "id": string,
     "name": string,
     "age": string,
     "track":string
 }
+```
 ### Update a Person (PATCH '/api/<string:user_id>')
 Request Format
 
@@ -129,9 +131,10 @@ Content-Type: application/json
 }
 Response
 
-{
-    "name": "Yuji Itadori","id": <string:user_id>,"age": 19,
+```{
+    "name": "Yuji Itadori","id": <string:user_id>,"age": "19"
 }
+```
 ### Deleting a Person Request
 
 DELETE /api/<string:user_id> HTTP/1.1 Host: localhost:5000
@@ -148,7 +151,7 @@ To set up and deploy the API locally or on a server, follow these steps:
 ### Navigate to the project directory:
 ```cd person-api```
 ### Install the required Python packages:
-```pip install -r requirements.txt```
+  pip install -r requirements.txt
 ### Configure the database settings in crud.py.
 ```app.config["SQLALCHEMY_DATABASE_URI"]= "sqlite:///" + os.path.join(Path.cwd(), "database.db")
 db = SQLAlchemy(app)
@@ -157,8 +160,8 @@ def create_tables():
     db.create_all()
 ```
 ### Start the API server:
-python app.py
+Run python app.py.
 The API will be accessible at http://localhost:5000. You can now use Postman or other tools to interact with the API as described in the Sample API Usage section.
 
-You can also make requests by using the requests model in python
+You can also make requests by using the requests model in python.
 Thank You
