@@ -29,7 +29,7 @@ everything in requirements.txt in this repo
 Clone this repository to your local machine: git clone https://github.com/yourusername/crud_api.git ------- Navigate to the project directory:
 cd task2 ------- Install the required Python packages: pip install -r requirements.txt
 
-###Running the API
+### Running the API
 Ensure your database is set up and running.
 
 Run the following command to create the database tables:
@@ -46,11 +46,11 @@ Request Body: JSON data containing person details (id, name, age, track).
 
 Example Request: http://localhost:5000/api -H "Content-Type: application/json" -d
 
-'{
+```'{
 "name": "Peter Ndukwe",
 "age": "12",
 track: "backend"
-}'
+}'```
 
 ### Retreive a person
 Endpoint: GET /api/<string:user_id>
@@ -66,11 +66,11 @@ Description: Update details of a person with the given ID. Request Body: JSON da
 
 Example Request: http://localhost:5000/api/<string:user_id> -H "Content-Type: application/json" -d
 
-'{
+```'{
     "name": "Lebron James",
     "id": <string:user_id>,
     "age": 40,
- }'
+ }'```
 ### Delete a person
 Endpoint: DELETE /api/<string:user_id>
 
