@@ -4,9 +4,8 @@ The CRUD API is a RESTful API that allows you to perform CRUD (Create, Read, Upd
 ## Table of Contents
 * [Prerequisites](#prerequisites)
 * [Getting Started](#getting-started)
-* [Installation](#installation)
-* [Configuration](#configuration)
-* [Running the API](#running-the-api)
+   * [Installation](#installation)
+   * [Running the API](#running-the-api)
 * [API Endpoints](#api-endpoints)
     * [Create a Person](#create-a-person)
     * [Retrieve a Person](#retrieve-a-person)
