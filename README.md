@@ -15,12 +15,12 @@ The CRUD API is a RESTful API that allows you to perform CRUD (Create, Read, Upd
 ### Prerequisites
 Before you begin, ensure you have the following:
 
-Python 3.8+
-pip (Python package manager)
-Flask
-Flask-SQLAlchemy
-[SQLite] (or an alternative database, based on your choice)
-everything in requirements.txt in this repo
+* Python 3.8+
+* pip (Python package manager)
+* Flask
+* Flask-SQLAlchemy
+* [SQLite] (or an alternative database, based on your choice)
+* Everything in requirements.txt in this repo
 ## Getting Started
 ### Installation
 Clone this repository to your local machine: git clone https://github.com/yourusername/crud_api.git ------- Navigate to the project directory:
