@@ -155,11 +155,11 @@ Response
 To set up and deploy the API locally or on a server, follow these steps:
 
 ### Clone the repository to your local machine:
-~~~ git clone https://github.com/yourusername/crud_api.git ~~~
+``` git clone https://github.com/yourusername/crud_api.git ```
 ### Navigate to the project directory:
-~~~ cd person-api ~~~
+``` cd person-api ```
 ### Install the required Python packages:
-~~~ pip install -r requirements.txt ~~~
+``` pip install -r requirements.txt ```
 ### Configure the database settings in crud.py.
 ```app.config["SQLALCHEMY_DATABASE_URI"]= "sqlite:///" + os.path.join(Path.cwd(), "database.db")
 db = SQLAlchemy(app)
