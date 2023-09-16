@@ -30,7 +30,8 @@ HTTP Status Code: 201 (Created) on success
 
 JSON Response Body:
 
-```{
+```
+{
  "id": string,"name":string, "age":string, "track":string
 }
 ```
@@ -45,7 +46,8 @@ HTTP Status Code: 200 (OK) on success
 
 JSON Response Body:
 
-  ```{
+  ```
+{
     "id": string,
     "name": string,
     "age": string,
@@ -63,7 +65,8 @@ Request Headers:
 
 Content-Type: application/json Request Body:
 
-```{
+```
+{
     "name": string,
     "age": string
     "track":string
@@ -75,7 +78,8 @@ HTTP Status Code: 200 (OK) on success
 
 JSON Response Body:
 
-```{
+```
+{
     "name": string, "age": string", track":string
 }
 ```
@@ -104,7 +108,8 @@ Content-Type: application/json
 }
 Response
 
-```{
+```
+{
     "id":"1", "name": "Fushiguro","age": "19","track":"shikigami"
 }
 ```
@@ -113,7 +118,8 @@ Response
 GET /api/<string:user_id> HTTP/1.1 Host: localhost:5000
 
 Response
-```{
+```
+{
     "id": <string:user_id>,
     "name": "Satoru Gojo",
     "age": "26",
@@ -132,7 +138,8 @@ Content-Type: application/json
 }
 Response
 
-```{
+```
+{
     "name": "Yuji Itadori","id": <string:user_id>,"age": "19"
 }
 ```
@@ -152,7 +159,7 @@ To set up and deploy the API locally or on a server, follow these steps:
 ### Navigate to the project directory:
 ```cd person-api```
 ### Install the required Python packages:
-  pip install -r requirements.txt
+~~~ pip install -r requirements.txt
 ### Configure the database settings in crud.py.
 ```app.config["SQLALCHEMY_DATABASE_URI"]= "sqlite:///" + os.path.join(Path.cwd(), "database.db")
 db = SQLAlchemy(app)
